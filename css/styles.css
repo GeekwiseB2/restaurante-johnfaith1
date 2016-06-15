@@ -1,0 +1,119 @@
+p {
+  font-size: 16px;
+}
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+#Slide1 {
+  background-image: url('../img/wood-2.jpg');
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Slide1 img{
+  margin-top: 10%;
+}
+#Slide2 {
+  background-image: url('../img/farm-2.jpg');
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Slide3 {
+  background-image: url('../img/restaurant-2.jpg');
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*OUR STORY SECTION*/
+#story {
+    padding: 5%;
+}
+.heading {
+  font size: 100px;
+  font-family: 'Lobster', cursive;
+  color: #f8512f;
+  text-shadow: 2px 2px 5px #000;
+}
+#story h3 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 0;
+}
+#year {
+  z-index: -1;
+  position: absolute;
+  color: #ccc;
+  font-style: 250px;
+  font-size: 200px;
+  font-family: 'Playfair Display'. serif;
+  font-weight: 700;
+  margine-top: -20px;
+}
+#story p {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*FOOD-REVIEW-SECTION*/
+#food-review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  min-height: 600px;
+}
+.heading {
+  font-size: 30;
+  font-style: italic;
+}
+#transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 15%;
+}
+#food-review .background {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 8%;
+  padding: 3%;
+}
+#food-review h3 {
+  color: #fff;
+  font-size: 30px;
+  font-family:
+}
+
+
+/*MENU*/
+#menu {
+  background-image: url('../img/black_linen.png');
+  padding: 3% 0;
+}
+#top {
+  color: #fff;
+  font-size: 80px;
+  font-style: italic;
+  text-align: center;
+}
+#menu-h1 {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+#menu .tab-pane {
+  background-color: #fff;
+  padding: 2%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+#the-foods p {
+  font-size: 16px;
+}
+#contact {
+  background-color: #f8512f;
+  color: #fff;
+  padding: 3%;
+}
+#contact h1 {
+  text-transform: uppercase;
+  font-size: 68px
+}
